@@ -4,6 +4,11 @@ body {
   box-sizing: border-box;
   color: #331B3F;
 }
+.robot {
+  max-width: 300px;
+  margin: 0 auto;
+  display: block;
+}
 .file-upload {
     padding: 15% 3%;
     margin: 0 auto;
@@ -199,7 +204,7 @@ body {
 .bar-container {
   height: 2.7rem;
 }
-.dinosaur-box {
+.흙수저-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -208,7 +213,7 @@ body {
   width: 100%;
   background-color: rgba(117, 204, 84, 0.2);
 }
-.dinosaur-bar {
+.흙수저-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -216,7 +221,7 @@ body {
   border-radius: 10px;
   background-color: rgba(117, 204, 84, 1);
 }
-.deer-box {
+.흙수저-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -225,7 +230,7 @@ body {
   width: 100%;
   background-color: rgba(117, 204, 84, 0.2);
 }
-.deer-bar {
+.흙수저-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -233,7 +238,7 @@ body {
   border-radius: 10px;
   background-color: rgba(117, 204, 84, 1);
 }
-.dog-box {
+.다이아-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -242,7 +247,7 @@ body {
   width: 100%;
   background-color: rgba(27, 175, 234, 0.2);
 }
-.dog-bar {
+.다이아-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -250,7 +255,7 @@ body {
   border-radius: 10px;
   background-color: rgba(27, 175, 234, 1);
 }
-.cat-box {
+.금수저-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -259,7 +264,7 @@ body {
   width: 100%;
   background-color: rgba(251, 176, 59, 0.2);
 }
-.cat-bar {
+.금수저-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -267,41 +272,7 @@ body {
   border-radius: 10px;
   background-color: rgba(251, 176, 59, 1);
 }
-.bear-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(195, 140, 102, 0.2);
-}
-.bear-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(195, 140, 102, 1);
-}
-.fox-box {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  width: 100%;
-  background-color: rgba(49, 132, 155, 0.2);
-}
-.fox-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 2rem;
-  border-radius: 10px;
-  background-color: rgba(49, 132, 155, 1);
-}
-.rabbit-box {
+.은수저-box {
   position: absolute;
   top: 0;
   left: 0;
@@ -310,7 +281,7 @@ body {
   width: 100%;
   background-color: rgba(235, 166, 190, 0.2);
 }
-.rabbit-bar {
+.은수저-bar {
   position: absolute;
   top: 0;
   left: 0;
@@ -339,53 +310,39 @@ body {
 .animal-explain {
     font-size: 1.5rem;
 }
-.dinosaur-animal-title {
+.흙수저-animal-title {
     color: #3ba363;
 }
-.dinosaur-animal-celeb {
-    color: #3ba363;
-    font-size: 1.2rem;
-}
-.deer-animal-title {
-    color: #3ba363;
-}
-.deer-animal-celeb {
+.흙수저-animal-celeb {
     color: #3ba363;
     font-size: 1.2rem;
 }
-.cat-animal-title {
+.흙수저-animal-title {
+    color: #3ba363;
+}
+.흙수저-animal-celeb {
+    color: #3ba363;
+    font-size: 1.2rem;
+}
+.금수저-animal-title {
     color: #ff6c0a;
 }
-.cat-animal-celeb {
+.금수저-animal-celeb {
     color: #ff6c0a;
     font-size: 1.2rem;
 }
-.dog-animal-title {
+.다이아-animal-title {
     color: #548dd4;
 }
-.dog-animal-celeb {
+.다이아-animal-celeb {
     color: #548dd4;
     font-size: 1.2rem;
 }
-.rabbit-animal-title {
+.은수저-animal-title {
     color: #e56995;
 }
-.rabbit-animal-celeb {
+.은수저-animal-celeb {
     color: #e56995;
-    font-size: 1.2rem;
-}
-.bear-animal-title {
-    color: #9b6b43;
-}
-.bear-animal-celeb {
-    color: #9b6b43;
-    font-size: 1.2rem;
-}
-.fox-animal-title {
-    color: #31849b;
-}
-.fox-animal-celeb {
-    color: #31849b;
     font-size: 1.2rem;
 }
 
