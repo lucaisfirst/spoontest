@@ -192,6 +192,13 @@ body {
     text-decoration: none;
 }
 
+.list-group{
+  width: 280px;
+}
+
+.list-group-item:first-child {
+  background-color: #e5eee8;
+}
 
 .upload {
     width: 20%;
