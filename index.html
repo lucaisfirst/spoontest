@@ -148,8 +148,8 @@
 			</div>
 		</div>
 	</div>
-	<h5 class="mt-1 text-center">*테스트는 재미로 즐겨주세요*</h5>
-	<ul class="container text-center list-group">
+	<h5 class="mt-2 text-center">*테스트는 재미로 즐겨주세요*</h5>
+	<ul class="pt-5 container text-center list-group">
 		<li class="list-group-item">[수저 순위]</li>
 		<li class="list-group-item list-group-item-primary">✨ ✨ 다이아수저 ✨ ✨</li>
 		<li class="list-group-item list-group-item-warning">🌟 🌟 금수저 🌟 🌟</li>
@@ -292,29 +292,29 @@
 			if (document.getElementById('gender').checked) {
 				switch (prediction[0].className) {
 					case '다이아':
-						resultTitle = '상위 0.01 ~ 1.00% 다이아수저';
+						resultTitle = '상위 0.01 ~ 1% 다이아수저';
 						resultExplain =
 							'삐빅~! 이 사진은 아름답다라는 수식어가 가장 잘어울립니다. 당신은 모를 수도 있지만 당신은 많은 사람들로부터 관심을 받고 있습니다! 아름다운 외모로 인해 다가가기 어려워할 수 있습니다. 당신이 먼저 다가가면 누구든 좋아할 것입니다! .....사랑합니다.';
 						resultCeleb = '첫인상 속마음: "대박 미X.....사람인가. 얼굴 개작다." 질투심이나 비교하려는 의지가 상실되고 감탄';
 						break;
 					case '금수저':
-						resultTitle = '상위 1.00 ~ 10% 금수저';
+						resultTitle = '상위 10% 금수저';
 						resultExplain =
 							'삐빅~! 이 사진은 타고난 외모를 보여주고 있습니다. 미남 미녀 그 자체입니다. 당신은 모를 수도 있지만 분명히 당신 주변에 당신에게 관심이 있는 사람이 있습니다. 당신의 매력을 발산해보세요.';
 						resultCeleb =
 							'첫인상 속마음: "오 예쁘고 잘생겼다. 연예인인줄. 사귀고 싶다. 고백할까" 기본적으로 호감';
 						break;
 					case '은수저':
-						resultTitle = '상위 10 ~ 60% 은수저';
+						resultTitle = '상위 60% 은수저';
 						resultExplain =
 							'삐빅~! 이 사진은 준수한 외모를 보여주고 있습니다. 무난하지만 자신만의 매력을 보여주면 누구나 호감을 가질 수 있습니다! 자신만의 매력을 발견하고 발전시키면 좋은 사람이 될 수 있습니다. ';
 						resultCeleb =
 							'첫인상 속마음: "평범하고 무난한데, 착하게 생겼네" 외모에 대한 큰 생각보다는 행동이나 성격에 집중된다. ';
 						break;
 					case '흙수저':
-						resultTitle = '60% 이하 흙수저';
+						resultTitle = '하위 40% 흙수저';
 						resultExplain =
-							'삐빅~! 이 사진은 불편한 외모를 보여주고 있습니다. 외모는 그 사람의 진가를 보여주는 절대지표가 아닙니다. 당신 주변사람들이 당신을 사랑하고 있다면 행복한 삶입니다. ';
+							'삐빅~! 이 사진은 평범한 외모를 보여주고 있습니다. 외모는 그 사람의 진가를 보여주는 절대지표가 아닙니다. 당신 주변사람들이 당신을 사랑하고 있다면 행복한 삶입니다. ';
 						resultCeleb =
 							'첫인상 속마음: "어....나랑은 잘 안 맞을 듯, 눈 피해야겠다." 굳이 관계를 만들필요는 없다. 자기계발에 힘써야 한다. ';
 						break;
@@ -326,27 +326,27 @@
 			} else {
 				switch (prediction[0].className) {
 					case '다이아':
-						resultTitle = '상위 0.01 ~ 1.00% 다이아수저';
+						resultTitle = '상위 0.01 ~ 1% 다이아수저';
 						resultExplain =
 							'삐빅~! 이 사진은 아름답다라는 수식어가 가장 잘어울립니다. 당신은 모를 수도 있지만 당신은 많은 사람들로부터 관심을 받고 있습니다! 아름다운 외모로 인해 다가가기 어려워할 수 있습니다. 당신이 먼저 다가가면 누구든 좋아할 것입니다! .....사랑합니다.';
 						resultCeleb = '첫인상 속마음: "대박. 미친.....사람인가. 얼굴 개작다." 질투심이나 비교하려는 의지가 상실되고 감탄';
 						break;
 					case '금수저':
-						resultTitle = '상위 1.00 ~ 10% 금수저';
+						resultTitle = '상위 10% 금수저';
 						resultExplain =
 							'삐빅~! 이 사진은 타고난 외모를 보여주고 있습니다. 미남 미녀 그 자체입니다. 당신은 모를 수도 있지만 분명히 당신 주변에 당신에게 관심이 있는 사람이 있습니다. 당신의 매력을 발산해보세요.';
 						resultCeleb =
 							'첫인상 속마음: "오 예쁘고 잘생겼다. 연예인인줄. 사귀고 싶다. 고백할까" 기본적으로 호감';
 						break;
 					case '은수저':
-						resultTitle = '상위 10 ~ 60% 은수저';
+						resultTitle = '상위 60% 은수저';
 						resultExplain =
 							'삐빅~! 이 사진은 준수한 외모를 보여주고 있습니다. 무난하지만 자신만의 매력을 보여주면 누구나 호감을 가질 수 있습니다! 자신만의 매력을 발견하고 발전시키면 좋은 사람이 될 수 있습니다. ';
 						resultCeleb =
 							'첫인상 속마음: "평범하고 무난한데, 착하게 생겼네" 외모에 대한 큰 생각보다는 행동이나 성격에 집중된다. ';
 						break;
 					case '흙수저':
-						resultTitle = '상위 60 ~ 100% 흙수저';
+						resultTitle = '하위 40% 흙수저';
 						resultExplain =
 							'삐빅~! 이 사진은 불편한 외모를 보여주고 있습니다. 외모는 그 사람의 진가를 보여주는 절대지표가 아닙니다. 당신 주변사람들이 당신을 사랑하고 있다면 행복한 삶입니다. ';
 						resultCeleb =
