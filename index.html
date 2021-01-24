@@ -372,6 +372,7 @@
 				resultCeleb +
 				'</div>';
 			$('.result-message').html(title + explain + celeb);
+
 			var barWidth;
 			for (let i = 0; i < maxPredictions; i++) {
 				if (prediction[i].probability.toFixed(2) > 0.1) {
@@ -384,16 +385,16 @@
 				var labelTitle;
 				switch (prediction[i].className) {
 					case '다이아':
-						labelTitle = '다이아수저';
+						labelTitle = '아름다움';
 						break;
 					case '금수저':
-						labelTitle = '금수저';
+						labelTitle = '섹시함';
 						break;
 					case '은수저':
-						labelTitle = '은수저';
+						labelTitle = '귀여움';
 						break;
 					case '흙수저':
-						labelTitle = '흙수저';
+						labelTitle = '진중함';
 						break;
 					default:
 						labelTitle = '알수없음';
