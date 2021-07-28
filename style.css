@@ -1,8 +1,8 @@
-body {
-  font-family: 'Noto Sans KR', sans-serif;
-  background-color: #ACC7B4;
+.body {
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: #acc7b4;
   box-sizing: border-box;
-  color: #331B3F;
+  color: #331b3f;
 }
 .robot {
   max-width: 300px;
@@ -10,37 +10,37 @@ body {
   display: block;
 }
 .file-upload {
-    padding: 15% 3%;
-    margin: 0 auto;
-    border-radius: 10px;
-    border: solid 1.5px #cee1d3;
-    background-color: #cee1d3;
+  padding: 15% 3%;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: solid 1.5px #cee1d3;
+  background-color: #cee1d3;
 }
 .file-upload-btn {
   width: 100%;
   margin: 0;
   color: #fff;
-  background: #1FB264;
+  background: #1fb264;
   border: none;
   padding: 10px;
   border-radius: 4px;
-  border-bottom: 4px solid #15824B;
-  transition: all .2s ease;
+  border-bottom: 4px solid #15824b;
+  transition: all 0.2s ease;
   outline: none;
   text-transform: uppercase;
   font-weight: 700;
 }
 
 .file-upload-btn:hover {
-  background: #1AA059;
+  background: #1aa059;
   color: #ffffff;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
   cursor: pointer;
 }
 
 .file-upload-btn:active {
   border: 0;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
 
 .file-upload-content {
@@ -63,19 +63,19 @@ body {
 }
 
 .image-upload-wrap {
-    width: 60%;
-    margin: 0 auto;
-    position: relative;
-    object-fit: contain;
-    border-radius: 10px;
-    border: dashed 1.5px #331B3F;
-    background-color: #e5eee8;
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  object-fit: contain;
+  border-radius: 10px;
+  border: dashed 1.5px #331b3f;
+  background-color: #e5eee8;
 }
 
 .image-dropping,
 .image-upload-wrap:hover {
-    background-color: #35465d82;
-    border: 1.5px dashed #ffffff;
+  background-color: #35465d82;
+  border: 1.5px dashed #ffffff;
 }
 
 .image-title-wrap {
@@ -116,39 +116,39 @@ body {
 .remove-image:hover {
   background: #c13b2a;
   color: #ffffff;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
   cursor: pointer;
 }
 
 .remove-image:active {
   border: 0;
-  transition: all .2s ease;
+  transition: all 0.2s ease;
 }
 
 .navbar-light .navbar-brand {
   line-height: 1.68;
   text-align: left;
-  color: #331B3F; 
+  color: #331b3f;
 }
 
 .navbar-light .navbar-toggler {
-    border-color: #ACC7B4;
+  border-color: #acc7b4;
 }
 
 .section {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .title {
   line-height: 1.67;
   text-align: center;
-  color: #331B3F;
+  color: #331b3f;
 }
 
 .subtitle {
   line-height: 1.53;
   text-align: center;
-  color: #331B3F;
+  color: #331b3f;
 }
 
 /* On screens that are 600px or less, set the background color to olive */
@@ -156,11 +156,10 @@ body {
   html {
     font-size: 10px;
   }
-    .navbar-brand {
-        font-size: 2rem;
-    }
+  .navbar-brand {
+    font-size: 2rem;
+  }
 }
-
 
 /* .youtube-link {
     font-size: 1.5rem;
@@ -184,15 +183,15 @@ body {
 } */
 
 .jocoding {
-    color: #c52525;
+  color: #c52525;
 }
 
 .jocoding:hover {
-    color: #c05858;
-    text-decoration: none;
+  color: #c05858;
+  text-decoration: none;
 }
 
-.list-group{
+.list-group {
   width: 280px;
 }
 
@@ -201,21 +200,21 @@ body {
 }
 
 .upload {
-    width: 20%;
+  width: 20%;
 }
 
 .upload-text {
-    width: 58%;
-    font-size: 1.5rem;
-    line-height: 1.53;
-    text-align: center;
-    color: #35465d;
-    margin: 0 auto;
+  width: 58%;
+  font-size: 1.5rem;
+  line-height: 1.53;
+  text-align: center;
+  color: #35465d;
+  margin: 0 auto;
 }
 
 .footer {
-    background-color: initial;
-    color: initial;
+  background-color: initial;
+  color: initial;
 }
 
 .bar-container {
@@ -294,49 +293,48 @@ body {
   color: #ffffff;
 }
 .animal-label {
-    width: 20%;
-    text-align: left;
-    height: 2rem;
+  width: 20%;
+  text-align: left;
+  height: 2rem;
 }
 #label-container {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
 }
 .result-message {
-    font-size: 2rem;
+  font-size: 2rem;
 }
-
 
 .animal-explain {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 .흙수저-animal-title {
-    color: #437072;
+  color: #437072;
 }
 .흙수저-animal-celeb {
-    color: #437072;
-    font-size: 1.2rem;
+  color: #437072;
+  font-size: 1.2rem;
 }
 .금수저-animal-title {
-    color: #ff6c0a;
+  color: #ff6c0a;
 }
 .금수저-animal-celeb {
-    color: #ff6c0a;
-    font-size: 1.2rem;
+  color: #ff6c0a;
+  font-size: 1.2rem;
 }
 .다이아-animal-title {
-    color: #548dd4;
+  color: #548dd4;
 }
 .다이아-animal-celeb {
-    color: #548dd4;
-    font-size: 1.2rem;
+  color: #548dd4;
+  font-size: 1.2rem;
 }
 .은수저-animal-title {
-    color: #7e7575;
+  color: #7e7575;
 }
 .은수저-animal-celeb {
-    color: #7e7575;
-    font-size: 1.2rem;
+  color: #7e7575;
+  font-size: 1.2rem;
 }
 
 /* gender */
@@ -421,6 +419,6 @@ input:checked + label > .knob > i:before {
 }
 
 .ad-banner {
-    width: 320px;
-    margin: 0 auto;
+  width: 320px;
+  margin: 0 auto;
 }
